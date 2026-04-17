@@ -103,7 +103,7 @@ const Navbar = () => {
       {/* Scrolling Ticker Bar */}
       <div className="ticker-bar border-t border-white/10 mt-4">
         <div className="animate-marquee px-4">
-         Welcome to Bimla International Public School | ADMISSION OPEN FOR ACADEMIC YEAR 2026-27 | ENROLL NOW TO SECURE YOUR CHILD'S FUTURE | VISIT CAMPUS OR CALL +91 123 456 7890 FOR DETAILS  | Admisson Open 2026-27 | 
+         Welcome to Bimla International Public School | ADMISSION OPEN FOR ACADEMIC YEAR 2026-27 | ENROLL NOW TO SECURE YOUR CHILD'S FUTURE | VISIT CAMPUS OR CALL +91 93358 51877 FOR DETAILS  | Admisson Open 2026-27 | 
         </div>
       </div>
     </nav>

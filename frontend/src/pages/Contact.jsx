@@ -70,7 +70,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg">Call Us</h4>
-                    <p className="text-text-light">+91 123 456 7890<br />+91 987 654 3210</p>
+                    <p className="text-text-light">+91 93358 51877</p>
                   </div>
                 </div>
 
@@ -80,14 +80,31 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg">Email Us</h4>
-                    <p className="text-text-light">info@bips-school.com<br />admissions@bips-school.com</p>
+                    <p className="text-text-light">b.i.publicschool@gmail.com</p>
                   </div>
                 </div>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="mt-12 rounded-3xl overflow-hidden shadow-xl h-64 bg-bg-light border border-primary/10 flex items-center justify-center">
-                <p className="text-text-light italic">Google Map will be embedded here</p>
+              {/* Live Google Map */}
+              <div className="mt-12 rounded-3xl overflow-hidden shadow-xl h-[500px] bg-bg-light border border-primary/10 relative">
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3563.882101379373!2d80.881151!3d26.6946586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDQxJzQwLjgiTiA4MMKwNTMnMDEuNCJF!5e0!3m2!1sen!2sin!4v1713336400000!5m2!1sen!2sin" 
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen="" 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="BIPS School Location"
+                ></iframe>
+                <a 
+                  href="https://www.google.com/maps/place/26%C2%B041'40.8%22N+80%C2%B053'01.4%22E/@26.6946586,80.881151,17z/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-4 py-2 rounded-full text-xs font-bold text-primary shadow-lg border border-primary/10 hover:bg-secondary hover:text-white transition-all flex items-center gap-2"
+                >
+                  <MapPin size={14} /> View on Google Maps
+                </a>
               </div>
             </motion.div>
 

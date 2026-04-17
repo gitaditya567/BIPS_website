@@ -60,9 +60,31 @@ function App() {
               <div>
                 <h4 className="footer-accent font-bold text-lg text-white">Contact Info</h4>
                 <ul className="space-y-5 opacity-90 text-sm text-white/90">
-                  <li className="flex items-start gap-4"><div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 border border-white/10"><MapPin className="text-secondary" size={18} /></div> <span>Makhdoonpur Kaithi, Jaiti Khera, <br/>Lucknow, Uttar Pradesh</span></li>
-                  <li className="flex items-center gap-4"><div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 border border-white/10"><Phone className="text-secondary" size={18} /></div> <span>+91 123 456 7890</span></li>
-                  <li className="flex items-center gap-4"><div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 border border-white/10"><Mail className="text-secondary" size={18} /></div> <span>info@bips-school.com</span></li>
+                  <li className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 border border-white/10">
+                      <MapPin className="text-secondary" size={18} />
+                    </div> 
+                    <a 
+                      href="https://www.google.com/maps/place/26%C2%B041'40.8%22N+80%C2%B053'01.4%22E/@26.6946586,80.881151,17z/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="hover:text-secondary transition-colors"
+                    >
+                      Makhdoonpur Kaithi, Jaiti Khera, <br/>Lucknow, Uttar Pradesh
+                    </a>
+                  </li>
+                  <li className="flex items-center gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 border border-white/10">
+                      <Phone className="text-secondary" size={18} />
+                    </div> 
+                    <span>+91 93358 51877</span>
+                  </li>
+                  <li className="flex items-center gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 border border-white/10">
+                      <Mail className="text-secondary" size={18} />
+                    </div> 
+                    <span>b.i.publicschool@gmail.com</span>
+                  </li>
                 </ul>
               </div>
             </div>
