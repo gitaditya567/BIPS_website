@@ -48,7 +48,7 @@ app.post('/api/contact', async (req, res) => {
     // 2. Send Email
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'b.i.publicschool@gmail.com',
+      to: 'bips.kaithi@gmail.com',
       subject: `New Contact Form Submission: ${subject}`,
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px; border: 1px solid #eee; border-radius: 10px;">

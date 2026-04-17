@@ -83,7 +83,7 @@ function App() {
                     <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center shrink-0 border border-white/10">
                       <Mail className="text-secondary" size={18} />
                     </div> 
-                    <span>b.i.publicschool@gmail.com</span>
+                    <span>bips.kaithi@gmail.com</span>
                   </li>
                 </ul>
               </div>
