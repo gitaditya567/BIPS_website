@@ -57,6 +57,16 @@ const Navbar = () => {
             </li>
           ))}
           <li>
+            <a 
+              href="https://bipslucknow.org/erp/feeonline" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn bg-primary text-white hover:bg-secondary text-xs uppercase tracking-widest py-3 px-6 shadow-md transition-all duration-300 transform hover:-translate-y-1"
+            >
+              Pay Online Fee
+            </a>
+          </li>
+          <li>
             <Link to="/contact" className="btn bg-secondary text-white hover:bg-primary text-xs uppercase tracking-widest py-3 px-6 shadow-md transition-all duration-300 transform hover:-translate-y-1">
               Apply Now <ArrowRight size={16} />
             </Link>
@@ -90,10 +100,19 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-              <li className="mt-6 px-8 w-full">
+              <li className="mt-6 px-8 w-full flex flex-col gap-4">
                 <Link to="/contact" className="btn bg-secondary text-white w-full text-center text-xs uppercase tracking-widest py-3 hover:bg-primary transition-colors" onClick={() => setIsOpen(false)}>
                   Apply Now <ArrowRight size={16} />
                 </Link>
+                <a 
+                  href="https://bipslucknow.org/erp/feeonline" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="btn bg-primary text-white w-full text-center text-xs uppercase tracking-widest py-3 hover:bg-secondary transition-colors" 
+                  onClick={() => setIsOpen(false)}
+                >
+                  Pay Online Fee
+                </a>
               </li>
             </ul>
           </motion.div>
